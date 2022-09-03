@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  background-color: #f3f6fb;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #f3f6fb;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+  font-size: small;
+  padding-top: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--lightestgrey);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #abb8ce;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
